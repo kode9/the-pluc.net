@@ -10,7 +10,7 @@ SITEURL       = ''
 RELATIVE_URLS = True
 DEFAULT_LANG  = 'fr'
 TIMEZONE      = 'Europe/Paris'
-THEME         = 'dev-random2'
+THEME         = 'abzhack'
 
 PATH          = 'content'
 CACHE_CONTENT = False
