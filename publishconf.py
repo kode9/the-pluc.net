@@ -2,23 +2,33 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-# This file is only used if you use `make publish` or
-# explicitly specify it as your config file.
+# Publication pelican configuration file
 
 import os
 import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://the-pluc.net'
+AUTHOR        = 'Pierre-Luc Perrier'
+SITENAME      = 'Pluc'
+SITEURL       = 'https://the-pluc.net'
 RELATIVE_URLS = False
+DEFAULT_LANG  = 'fr'
+TIMEZONE      = 'Europe/Paris'
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_ATOM      = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
+OUTPUT_RETENTION        = ('.git')
 
-# Following items are often useful when publishing
+# Disable feed generation
+FEED_ALL_ATOM         = None
+CATEGORY_FEED_ATOM    = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM      = None
+AUTHOR_FEED_RSS       = None
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+# Disable tag generation
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
