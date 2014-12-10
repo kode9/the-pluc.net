@@ -1,0 +1,22 @@
+# Backup files
+*~
+\#*#
+.#*
+
+# pdf
+*.pdf
+
+# python bytecode
+*.pyc
+
+# archives
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.7z
+
+# For this repo
+Makefile
+develop_server.sh
+fabfile.py
