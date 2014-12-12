@@ -17,6 +17,7 @@ CACHE_CONTENT = False
 LOAD_CONTENT_CACHE = False
 
 SUMMARY_MAX_LENGTH = 20
+DISPLAY_PAGES_ON_MENU=True
 
 # Pagination
 ## The minimum number of articles allowed on the last page
@@ -47,4 +48,9 @@ LINKS = ()
 # Social widget
 SOCIAL = (
     ('github', 'https://github.com/kode9'),
+    ('stackoverflow', 'https://stackoverflow.com/users/1024122/thepluc'),
 )
+
+# Theme specific
+USER_LOGO_URL='images/pluc.png'
+AUTO_REFRESH = False
